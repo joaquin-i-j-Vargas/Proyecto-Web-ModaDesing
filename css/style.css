@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li,
+ol,
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* reseteo ↑ */
+
+
+
+
+
+/* -----Header----- */
+/* ---------------- */
+
+header{
+    background-color: rgba(250, 235, 215, 0.596);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+header h1{
+
+    justify-content: center;
+}
+
+header ul{
+    display:flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+
+/* -----Main------- */
+/* ---------------- */
+
+main{
+    background-color: rgb(160, 148, 121);
+}
+
+
+/* -index- */
+
+.portada{
+    height: 95vh;
+    background-image: url(/img/fondos/fondo-5.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+
+}
+
+.carruselito{
+    margin: 20px;
+    border-radius: 50px;
+}
+
+
+
+
+.encabezado-portada{
+    background-color: rgba(250, 235, 215, 0.596);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    font-size: 1.2rem;
+
+}
+
+.pie-portada ul{
+    background-color: rgba(250, 235, 215, 0.596);
+    padding: 20px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.portada-nosotros{
+    background-color: rgba(250, 235, 215, 0.603);
+    padding: 40px;
+}
+
+.caja-registro1{
+    
+    display: flex;
+    background-color: antiquewhite;
+    width: 70vh;
+    height: 60vh;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.productos-titulo{
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 1.6rem;
+    padding: 15px;
+}
+
+
+.productos2{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: 15px;
+
+}
+
+
+.prod{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prod img{
+    width: 50%;
+    height: 50%;
+    width: 100%;
+}
+
+.prod h3{
+    font-size: 1.8rem;
+}
+
+.prod span{
+    font-size: 1.6rem;
+}
+
+.btn{
+    border: 2px solid black;
+    padding: 8px 10px;
+    border-radius: 20px;
+}
+
+.btn2{
+    border: 2px solid black;
+    padding: 8px 10px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    
+}
+
+.carro2{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: 15px;
+    
+
+}
+
+/* -----footer------- */
+/* ---------------- */
+
+
+footer{
+    background-color: rgba(250, 235, 215, 0.596);
+    padding: 15px;
+}
+
+.iconossocial1 img{
+    width: 50%;
+    margin: 10%;
+}
+
+.iconosfooter1 img{
+    width: 30%;
+    margin: 20%;
+}
+
+.iconosfooter2 img{
+    width: 65%;
+}
+
+.iconosfooter3 img{
+    width: 55%;
+}
+
+.iconostarjeta1 img{
+    width: 70%;
+}
+
+.iconostarjeta2 img{
+    width: 50%;
+}
+
+/* .pie-pagina{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.caja-1{
+    /* border: solid 3px rgba(126, 118, 109, 0.397); */
+width: 23vh;
+margin: 0.5%;
+}
+
+.mapa{
+    height: 13vh;
+    width: 18vh;
+    margin: 4%;
+}
+
+.ul-footer{
+    display: none;
+}
